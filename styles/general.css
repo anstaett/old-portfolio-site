@@ -25,13 +25,38 @@ body{
     overflow-x: hidden;  
 }
 
-.bodytext{
-    padding-top: 10vh;
+
+.abouttxt{
+    font-size: x-large;
+    padding-top: 5vh;
     padding-left: 10vh;
     padding-right: 10vh;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
     letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.porttxt{
+    font-size: x-large;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 6vh;
+
+}
+
+.bodytext{
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size:xx-large
 }
 
 .bodytext-active{
@@ -84,5 +109,17 @@ body{
     .bodytext-active{
         padding-right: 20vh;
         transition: .5s;
+    }
+    .pp{
+        display: none;
+    }
+    .abouttxt{
+        font-size: 1ch;
+    }
+    .bodytext{
+        font-size: 1.6ch;
+    }
+    .porttxt{
+        font-size: 1.2ch;
     }
 }
