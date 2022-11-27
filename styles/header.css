@@ -1,0 +1,160 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: black;
+}
+
+.left-header{
+
+}
+
+
+
+.middle-header{
+    width: 80vh;
+
+}
+
+.middle-header-holder{
+    display: none;
+}
+
+.right-header{
+
+
+}
+
+.hb-links{
+  
+    position: absolute;
+    right: 0;
+    height: 78vh;
+    top: 22vh;
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+    transform: translateX(100%);
+    transition: transform .5s ease-in;
+    width: 30vh;
+    border-style: solid;
+    border-right-style: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-color: red;
+    border-width: 4px;
+    
+}
+
+.hb-links li{
+    list-style: none;
+}
+
+.hb-links a{
+    text-decoration: none;
+    
+}
+
+
+/* .hb-links img :hover{
+    box-shadow: 0 0 5vh rgb(0, 0, 0);
+} */
+
+
+.li-1 figcaption{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    text-align: center;
+    color: black;
+    
+}
+
+
+
+.ticket img{
+    width: 100%;
+    padding: 10%; 
+}
+
+.contactus{
+    background-color: black;
+    cursor: pointer;
+    display: block;
+
+}
+
+.burger{
+    background-color:black;
+    cursor: pointer;
+    height: 10vh;
+    width: 10vh;
+    display: block;
+    
+}
+
+
+
+.home-icon{
+    height: 50px;
+}
+
+@media screen and (max-width:768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .middle-header{
+        display: none;
+    }
+
+    .middle-header-holder{
+        display: flex;
+        flex: 2;
+    }
+
+    
+
+    .hb-links{
+        width: 20vh;
+        height:89vh;
+        top: 11vh;
+    }
+    
+    .hb-links li{
+        opacity: 1;
+    }
+    .left-header{width: 10vh;}
+    .right-header{width: 10vh;}
+    
+}
+
+.hb-active{
+    transform: translateX(0%);
+}
+
+/* .burgeractive .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.burgeractive .line2{
+    opacity: 0;
+}
+.burgeractive .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+} */
+
+
+
+#vid{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80vh;
+}
+

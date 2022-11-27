@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+    color: red;
+    
+}
+
+.mainbody{
+    display: inline-block;
+    
+    height: 90vh;
+    top: 10vh;
+    width: 100%;
+    transition: 1s;
+    background-image: url('../images/subwayfadetoblack.jpg');
+    background-size: 100%;
+    background-position-y: 40%;
+    text-align: top;
+    
+}
+
+body{
+    overflow-x: hidden;  
+}
+
+.bodytext{
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.bodytext-active{
+    padding-right: 30vh;
+    transition: .5s;
+}
+
+
+#Dhead{
+    text-decoration: underline;
+}
+
+#Lhead{
+    text-decoration: underline;
+}
+
+.contactimgs{
+    position: relative;
+    height:50px;
+    transform:translate(40%,30%)
+}
+
+.contactimgs{
+    position: relative;
+    height:50px;
+    transform:translate(40%,30%)
+}
+
+.topofmain{
+
+    margin-bottom: auto;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.blendervids{
+    padding-top: 2vh;
+    width: 200px;
+}
+
+.blendervids2{
+    padding-top: 2vh;
+    width: 265px;
+}
+
+@media screen and (max-width:768px){
+    .bodytext-active{
+        padding-right: 20vh;
+        transition: .5s;
+    }
+}
